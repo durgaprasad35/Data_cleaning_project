@@ -75,9 +75,6 @@ update layoff_staging3
 set country = trim(trailing '.' from country) 
 where country like 'united states%' ; 
 
-select * 
-from layoffs 
-join 
 
 
 
